@@ -1,0 +1,9 @@
+1) O LED RGB nada mais é que três Leds em um só, ele é formado por um vermelho (R de red), um verde (G de green) e um azul (B de blue). Associando as cores dos três Leds é possível se obter várias possibilidades de cores.
+
+2) Lembre-se que existem 2 tipos de LED RGB, o ânodo comum e o cátodo comum. Observe que para cada uma das cores existe um terminal, e além disso o quarto terminal (maior) deverá ser conectado ao polo positivo (ânodo comum) e ao polo negativo (cátodo comum).
+
+Esquema LED RGB
+
+3) ATENÇÃO: Podem existir no mercado outros tipos de LED RGB com configurações dos terminais diferentes dos LEDs RGB comuns (veja a imagem abaixo). Por isso é importante verificar com o fornecedor o tipo de LED que irá adquirir. Caso o seu LED RGB tenha os pinos configurados conforme figura abaixo ou de outro tipo, basta ajustar as variáveis globais R, G e B do sketch do nosso projeto.
+
+4) Para determinar os valores dos resistores para o seu LED RGB, utilize os dados do fabricante (datasheet). No nosso projeto, utilizamos um LED RGB tipo cátodo comum com as seguintes características:
